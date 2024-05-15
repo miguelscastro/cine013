@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine013 - Avaliações</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <link rel="stylesheet" href="/home-assets/styles/home.css">
+    <link rel="stylesheet" href="tabela.css">
+    <script src="https://kit.fontawesome.com/20918d4472.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span id="nav-logo"><a href="/home.html">Cine013</a></span>
+            <ul id="nav-bar">
+                <li>
+                    <button id="nav-btn" onclick="sair()"><i class="fa-solid fa-right-from-bracket"></i></button>
+                </li>
+                <li class="fit">
+                    <a href="/login/assets/html/signin.html">
+                        <i class="fa-regular fa-user"></i>
+                        <p id="logado" class=""></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <table>
+            <caption>Informações sobre filmes em cartaz</caption>
+            <thead>
+                <tr>
+                    <th>Filme</th>
+                    <th>Gênero</th>
+                    <th>Lançamento</th>
+                    <th>Classificação</th>
+                    <th>Duração</th>
+                    <th>Sinopse</th>
+                    <th>Avaliação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="cartaz">
+                        <figure>
+                            <img src="https://ecine.net.br/sistema/arquivos/filmes/170120241501541.jpg"
+                                alt="Cartaz do Filme Garfield">
+                            <figcaption>Garfield: Fora de Casa</figcaption>
+                        </figure>
+                    </td>
+                    <td>Aventura, Animação</td>
+                    <td>01/05/2024</td>
+                    <td>
+                        <div class="livre classificacao">L</div>
+                    </td>
+                    <td>1h 41min</td>
+                    <td class="texto">Em "Garfield: Fora de Casa", o amado gato de estimação laranja (dublado por
+                        Chris
+                        Pratt) está de
+                        volta para mais uma aventura inesquecível: após reencontrar seu pai, o gato de rua Vic
+                        (dublado
+                        por Samuel L. Jackson), que não via há muito tempo, Garfield e o cãozinho Odie acabam se
+                        envolvendo em um arriscado assalto.</td>
+                    <td class="rating-css">
+                        <div class="icone-estrela">
+                            <div class="icone-estrela">
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star-half-o checked star"></span>
+                                <span class="fa fa-star star"></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cartaz">
+                        <figure>
+                            <img src="https://img.veloxtickets.com/content/titulos/evento/rivais_54304_evento.jpg?24045049"
+                                alt="Cartaz do Filme Rivais">
+                            <figcaption>Rivais</figcaption>
+                        </figure>
+                    </td>
+                    <td>Drama, Romance</td>
+                    <td>25/04/2024</td>
+                    <td>
+                        <div class="quatorze classificacao">14</div>
+                    </td>
+                    <td>2h 11min</td>
+                    <td class="texto">
+                        O filme "Rivais", dirigido por Luca Guadagnino, acompanha Tashi, uma tenista prodígio que se
+                        tornou treinadora e é uma figura poderosa tanto dentro quanto fora das quadras. Casada com Art,
+                        ela transformou a carreira do marido de um jogador medíocre em um campeão mundialmente famoso.
+                        Quando Art enfrenta dificuldades, Tashi o convence a competir em um torneio "Challenger", onde
+                        ele enfrentará Patrick, seu antigo melhor amigo e ex-namorado de Tashi. O encontro desses três
+                        personagens pode reavivar antigas rivalidades e mudar o rumo de suas carreiras.</td>
+                    <td class="rating-css">
+                        <div class="icone-estrela">
+                            <div class="icone-estrela">
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star star"></span>
+                                <span class="fa fa-star star"></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cartaz">
+                        <figure>
+                            <img src="https://img.veloxtickets.com/content/titulos/evento/kung-fu-panda-4_51816_evento.jpg?24012641"
+                                alt="Cartaz do Filme Kung Fu Panda 4">
+                            <figcaption>Kung Fu Panda 4</figcaption>
+                        </figure>
+                    </td>
+                    <td>Aventura, Animação, Comédia, Família</td>
+                    <td>21/03/2024</td>
+                    <td>
+                        <div class="livre">L</div>
+                    </td>
+                    <td>1h 34min</td>
+                    <td class="texto">
+                        O filme acompanha o Grande Dragão Guerreiro, interpretado por Jack Black, sendo escolhido para
+                        se tornar o Líder Espiritual do Vale da Paz. Ele precisa encontrar e treinar um novo Dragão
+                        Guerreiro, Zhen, interpretado por Awkwafina, uma raposa relutante. Enquanto isso, a feiticeira
+                        perversa Camaleoa, interpretada por Viola Davis, tenta trazer de volta os vilões derrotados por
+                        Po do reino espiritual, complicando ainda mais as coisas.</td>
+                    <td class="rating-css">
+                        <div class="icone-estrela">
+                            <div class="icone-estrela">
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star star"></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cartaz">
+                        <figure>
+                            <img src="https://img.veloxtickets.com/content/titulos/evento/guerra-civil_54036_evento.jpg?24041838"
+                                alt="Cartaz do Filme Guerra Civil">
+                            <figcaption>Guerra Civil</figcaption>
+                        </figure>
+                    </td>
+                    <td>Ação, Suspense</td>
+                    <td>18/04/2024</td>
+                    <td>
+                        <div class="dezoito">18</div>
+                    </td>
+                    <td>1h 49min</td>
+                    <td class="texto">O filme se passa em um futuro próximo, durante uma guerra civil nos Estados
+                        Unidos. Uma equipe de jornalistas de guerra, liderada por Lee e seu colega Joel, viaja pelo país
+                        para documentar a escalada da violência. No entanto, eles se tornam alvos, transformando seu
+                        trabalho de registro em uma luta pela sobrevivência. O elenco inclui Kirsten Dunst, Wagner
+                        Moura, Stephen McKinley Henderson, Jesse Plemmons e Nick Offerman.</td>
+                    <td class="rating-css">
+                        <div class="icone-estrela">
+                            <div class="icone-estrela">
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star-half-o checked star"></span>
+                                <span class="fa fa-star star"></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cartaz">
+                        <figure>
+                            <img src="	https://img.veloxtickets.com/content/titulos/evento/evidencias-do-amor_51894_evento.jpg?24011339"
+                                alt="Cartaz do Filme Evidências do Amor">
+                            <figcaption>Evidências do Amor</figcaption>
+                        </figure>
+                    </td>
+                    <td>Comédia, Romance</td>
+                    <td>11/04/2024</td>
+                    <td>
+                        <div class="doze">12</div>
+                    </td>
+                    <td>1h 45min</td>
+                    <td class="texto">O filme segue a história de um casal, Marco Antônio (Fábio Porchat) e Laura
+                        (Sandy), que se apaixonam depois de cantarem juntos a música "Evidências" em um karaokê. Após
+                        muitos
+                        altos e baixos, o relacionamento termina, mas um ano depois, Marco Antônio percebe que sempre
+                        que
+                        ouve "Evidências", volta às discussões do passado com a ex. Determinado a superar Laura e seguir
+                        em
+                        frente, ele embarca em uma jornada para se livrar dessas lembranças indesejadas. O filme também
+                        apresenta Evelyn Castro, Larissa Luz e Fernanda Paes Leme.</td>
+                    <td class="rating-css">
+                        <div class="icone-estrela">
+                            <div class="icone-estrela">
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star star"></span>
+                                <span class="fa fa-star star"></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cartaz">
+                        <figure>
+                            <img src="https://img.veloxtickets.com/content/titulos/evento/abigail_54114_evento.jpg?24044237
+                        " alt="Cartaz do Filme Abigail">
+                            <figcaption>Abigail</figcaption>
+                        </figure>
+                    </td>
+                    <td>Terror, Suspense</td>
+                    <td>18/04/2024</td>
+                    <td>
+                        <div class="dezoito">18</div>
+                    </td>
+                    <td>1h 49min</td>
+                    <td class="texto">
+                        No filme "Abigail", um grupo peculiar de criminosos aceita um trabalho típico: sequestrar uma
+                        bailarina de doze anos, filha de um dos homens mais poderosos do submundo. Eles são encarregados
+                        de observar a criança por uma noite em uma mansão isolada em troca de um resgate de 50 milhões
+                        de dólares. No entanto, à medida que os raptores começam a desaparecer, descobrem que estão
+                        presos dentro de casa com uma garotinha nada normal.</td>
+                    <td class="rating-css">
+                        <div class="icone-estrela">
+                            <div class="icone-estrela">
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star-half-o checked star"></span>
+                                <span class="fa fa-star star"></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cartaz">
+                        <figure>
+                            <img src="https://br.web.img3.acsta.net/c_310_420/pictures/24/03/19/19/43/5749480.png"
+                                alt="Cartaz do Filme Contra o Mundo">
+                            <figcaption>Contra o Mundo</figcaption>
+                        </figure>
+                    </td>
+                    <td>Ação, Ficção Científica, Suspense</td>
+                    <td>25/04/2024</td>
+                    <td>
+                        <div class="dezoito">18</div>
+                    </td>
+                    <td>1h 52min</td>
+                    <td class="texto">"Contra o Mundo" é estrelado por Bill Skarsgård e segue a história de "Garoto",
+                        que busca vingança após sua família ser assassinada por Hilda Van Der Koy. Órfão, surdo e sem
+                        voz, ele foge para a selva e é treinado por um xamã misterioso para se tornar uma máquina de
+                        morte. Com a ajuda de sua voz interior, emprestada de seu videogame favorito, ele se une a um
+                        grupo de resistência para executar seu plano, resultando em uma carnificina nas artes marciais.
+                    </td>
+                    <td class="rating-css">
+                        <div class="icone-estrela">
+                            <div class="icone-estrela">
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star star"></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cartaz">
+                        <figure>
+                            <img src="https://br.web.img3.acsta.net/c_310_420/img/7b/2a/7b2aee713aa190fa761e90559c92255e.PNG"
+                                alt="Cartaz do Filme Jorge da Capadócia">
+                            <figcaption>Jorge da Capadócia</figcaption>
+                        </figure>
+                    </td>
+                    <td>Diversos</td>
+                    <td>18/04/2024</td>
+                    <td>
+                        <div class="dezesseis">16</div>
+                    </td>
+                    <td>1h 59min</td>
+                    <td class="texto">O filme "Jorge da Capadócia", dirigido, produzido e estrelado por Alexandre
+                        Machafer, relata a história do São Jorge, um dos santos mais populares do cristianismo.
+                        Ambientado em 303 D.C., o filme retrata a luta do guerreiro contra a perseguição aos cristãos
+                        pelo Imperador Diocleciano, interpretado por Roberto Bomtempo. A trama aborda os conflitos de
+                        Jorge ao decidir entre sua fé e as ordens do imperador.</td>
+                    <td class="rating-css">
+                        <div class="icone-estrela">
+                            <span class="fa fa-star checked star"></span>
+                            <span class="fa fa-star checked star"></span>
+                            <span class="fa fa-star checked star"></span>
+                            <span class="fa fa-star star"></span>
+                            <span class="fa fa-star star"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cartaz">
+                        <figure>
+                            <img src="https://br.web.img3.acsta.net/c_310_420/pictures/24/01/26/10/11/2179262.jpg"
+                                alt="Cartaz do Filme A Teia">
+                            <figcaption>A Teia</figcaption>
+                        </figure>
+                    </td>
+                    <td>Ação, Policial, Suspense</td>
+                    <td>02/05/2024</td>
+                    <td>
+                        <div class="dezesseis">16</div>
+                    </td>
+                    <td>1h 50min</td>
+                    <td class="texto">
+                        Em "Sleeping Dogs", um thriller de suspense, o ex-detetive Roy Freeman, que luta contra o
+                        Alzheimer, decide revisitar um caso de homicídio do passado após descobrir que o homem que ele
+                        condenou saiu do corredor da morte por ser inocentado. Mesmo com sua memória fragilizada,
+                        Freeman se envolve na investigação, contando com a ajuda de seu ex-parceiro. Ao reexaminar o
+                        caso, ele faz descobertas tanto sobre o crime quanto sobre si mesmo.</td>
+                    <td class="rating-css">
+                        <div class="icone-estrela">
+                            <div class="icone-estrela">
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star star"></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cartaz">
+                        <figure>
+                            <img src="	https://br.web.img3.acsta.net/c_310_420/pictures/24/02/28/15/47/0426941.png"
+                                alt="Cartaz do Filme Godzilla e King Kong: O Novo Império">
+                            <figcaption>Godzilla e King Kong: O Novo Império</figcaption>
+                        </figure>
+                    </td>
+                    <td>Ação, Fantasia, Ficção Científica</td>
+                    <td>28/04/2024</td>
+                    <td>
+                        <div class="doze">12</div>
+                    </td>
+                    <td>1h 55min</td>
+                    <td class="texto">
+                        "Godzilla e Kong: O Novo Império" é o mais recente filme do MonsterVerse, seguindo o confronto
+                        entre Godzilla e Kong. Desta vez, os dois titãs unem forças contra uma ameaça colossal que
+                        coloca em risco tanto eles quanto a humanidade. O enredo explora a Ilha da Caveira e as origens
+                        da Terra Oca, revelando os mistérios por trás desses seres extraordinários e sua conexão com a
+                        humanidade. Dirigido por Adam Wingard, o filme reintroduz personagens conhecidos e apresenta um
+                        novo protagonista interpretado por Dan Stevens.</td>
+                    <td class="rating-css">
+                        <div class="icone-estrela">
+                            <div class="icone-estrela">
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star checked star"></span>
+                                <span class="fa fa-star-half-o checked star"></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="conteudo">
+            <h2>Avalie os filmes em cartaz</h2>
+            <form id="formularioAvaliacao" class="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="filme">Nome do filme:</label>
+                <input type="text" id="filme" name="filme">
+
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+                <label>Avaliação:</label>
+                <div class="stars" id="avaliacao">
+                    <input type="radio" id="estrela1" name="avaliacao" value="1">
+                    <label for="estrela1">☆</label>
+
+                    <input type="radio" id="estrela2" name="avaliacao" value="2">
+                    <label for="estrela2">☆</label>
+
+                    <input type="radio" id="estrela3" name="avaliacao" value="3">
+                    <label for="estrela3">☆</label>
+
+                    <input type="radio" id="estrela4" name="avaliacao" value="4">
+                    <label for="estrela4">☆</label>
+
+                    <input type="radio" id="estrela5" name="avaliacao" value="5">
+                    <label for="estrela5">☆</label>
+                </div>
+
+                <button onclick="avaliacao()" type="submit" class="botao-avaliacao">Enviar Avaliação</button>
+            </form>
+        </div>
+    </main>
+    <footer class="contain" id="footer">
+        <div id="logo-social">
+            <span id="footer-logo"><a href="/home.html">Cine013</a></span>
+            <ul id="social">
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+            <button id="toTop" onclick="toTop()"><i class="fa-solid fa-angle-up"></i></button>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/home-assets/scripts/home.js"></script>
+    <script src="/login/assets/js/loginP.js"></script>
+    <script src="avaliacao.js"></script>
+</body>
+
+</html>
