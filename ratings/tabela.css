@@ -52,6 +52,11 @@ td.texto {
 
 .cartaz {
     align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    font-size: 18px;
+    color: var(--text-color);
 }
 
 .cartaz img {
