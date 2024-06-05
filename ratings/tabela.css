@@ -96,17 +96,19 @@ th:hover {
 
 .livre {
     color: var(--text-color);
-    background-color: #00bb22;
+    background-color: #0c8822;
     width: 30px;
     height: 30px;
+    
 }
 
 .quatorze {
     display: flex;
-    color: var(--text-color);
-    background-color: #f6962d;
+    color: black;
+    background-color: #eb8a23;
     width: 30px;
     height: 30px;
+    
 }
 
 .dezoito {
@@ -114,13 +116,15 @@ th:hover {
     background-color: #000;
     width: 30px;
     height: 30px;
+    
 }
 
 .doze {
-    color: var(--text-color);
-    background-color: #edcb0c;
+    color: black;
+    background-color: #f0ce0f;
     width: 30px;
     height: 30px;
+    
 }
 
 .dezesseis {
@@ -128,6 +132,7 @@ th:hover {
     background-color: #dd021c;
     width: 30px;
     height: 30px;
+    
 }
 
 /* INÍCIO  ESTRELAS AVALIAÇÕES */

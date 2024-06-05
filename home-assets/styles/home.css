@@ -25,6 +25,16 @@ body {
     font-size: 150%;
     color: #fff;
 }
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
 
 .contain {
     margin: 0 auto;
@@ -40,7 +50,9 @@ nav {
     padding: 0.3%;
     font-size: 75%;
 }
-
+#logado {
+    font-size: 0.8em;
+}
 #nav-logo {
     margin: 1% 3%;
     display: flex;
@@ -68,10 +80,6 @@ nav {
 
 .fit {
     display: flex;
-}
-
-.fit p {
-    margin-left: 10%;
 }
 
 #nav-bar {
@@ -161,7 +169,9 @@ a {
     margin-top: 2%;
     font-size: 250%;
 }
-
+h1 {
+    font-size: 1.5rem;
+}
 #toRatings {
     display: block;
     margin: 2% 0 0 4.5%;

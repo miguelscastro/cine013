@@ -22,15 +22,17 @@
             <span id="nav-logo"><a href="home.html">Cine013</a></span>
             <ul id="nav-bar">
                 <li>
-                    <button id="nav-btn" onclick="sair()"><i class="fa-solid fa-right-from-bracket"></i></button>
+                    <button id="nav-btn" onclick="sair()"><span class="sr-only">Sair</span>
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </button>
                 </li>
                 <li class="fit"><a href="login/assets/html/signin.html"><i class="fa-regular fa-user"></i>
-                        <p id="logado" class=""></p>
+                        <p id="logado" class="">Login</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i><span class="sr-only">Pesquisa</span>
                     </a>
                 </li>
             </ul>
@@ -58,11 +60,10 @@
                 class="carrossel-item">
         </div>
     </div>
-
     <main class="contain">
         <button onclick="changeSection(this)" id="buttonCartaz" class="vermelho button">Em cartaz</button>
         <button onclick="changeSection(this)" id="buttonBreve" class="button">Em breve</button>
-        <a href="ratings/ratings.html" id="toRatings">Avaliações</a>
+        <h1><a href="ratings/ratings.html" id="toRatings">Avaliações</a></h1>
         <ul id="emCartaz">
             <li>
                 <figure>
@@ -324,12 +325,14 @@
         <div id="logo-social">
             <span id="footer-logo"><a href="home.html">Cine013</a></span>
             <ul id="social">
-                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook-f"></i><span class="sr-only">Facebook</span></a></li>
+                <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i><span class="sr-only">X (Twitter)</span></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i><span class="sr-only">Instagram</span></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i><span class="sr-only">Youtube</span></a></li>
             </ul>
-            <button id="toTop" onclick="toTop()"><i class="fa-solid fa-angle-up"></i></button>
+            <button id="toTop" onclick="toTop()">
+                <span class="sr-only">Voltar ao topo</span><i class="fa-solid fa-angle-up"></i>
+            </button>
         </div>
     </footer>
 
