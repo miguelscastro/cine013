@@ -50,13 +50,19 @@ function changeSection(btn) {
 
     document.getElementById("buttonCartaz").classList.add("vermelho")
     document.getElementById("buttonBreve").classList.remove("vermelho");
+
+    document.querySelector("#h2Breve").classList.add("sr-only")
+    document.querySelector("#h2Cartaz").classList.remove("sr-only");
   }
   if (btn.id === "buttonBreve") {
     banner.style.display = "none";
     banner2.style.display = "flex";
 
     document.getElementById("buttonBreve").classList.add("vermelho")
-    document.getElementById("buttonCartaz").classList.remove("vermelho")
+    document.getElementById("buttonCartaz").classList.remove("vermelho");
+
+    document.querySelector("#h2Cartaz").classList.add("sr-only")
+    document.querySelector("#h2Breve").classList.remove("sr-only");
   }
 }
 
@@ -66,4 +72,31 @@ function toTop() {
     behavior: 'smooth'
   })
 }
+
+
+// Teclas de atalho
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'F1') {
+      event.preventDefault();
+      document.getElementById('topo').scrollIntoView({
+          behavior: 'smooth'
+      });
+  }
+});
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'F2') {
+      event.preventDefault();
+      document.getElementById('1').scrollIntoView({
+          behavior: 'smooth'
+      });
+  }
+});
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'F3') {
+      event.preventDefault();
+      document.getElementById('social').scrollIntoView({
+          behavior: 'smooth'
+      });
+  }
+});
 
