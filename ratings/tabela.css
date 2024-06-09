@@ -151,6 +151,10 @@ th:hover {
     border: 2px solid #fff;
     border-radius: 5px;
 }
+.conteudo h2 {
+    margin-bottom: 3%;
+    border-bottom: 1px solid #696969;
+}
 
 .formulario {
     display: flex;
