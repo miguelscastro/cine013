@@ -9,5 +9,5 @@ function sair() {
   document.querySelector("#logado").textContent = ""
   localStorage.removeItem("token");
   localStorage.removeItem("userLogado");
-  window.location.href = "home.html";
+  window.location.href = "index.html";
 }
